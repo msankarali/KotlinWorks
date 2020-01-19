@@ -4,7 +4,7 @@ import java.io.IOException
 
 fun main() {
     print("Ogrenci misin?: ")
-    val answer = readLine()
+    val answer = readLine()!!
 
     val result = if (answer == "Evet") {
         println("Öğrenci")

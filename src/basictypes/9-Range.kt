@@ -44,7 +44,7 @@ fun main() {
 
     val countBiggerThan50 = numberList.count {
         it > 50
-    }
+    } //süslü parantez kullanımı ile parantez kullanımı farklı
 
     println(countBiggerThan50)
 
