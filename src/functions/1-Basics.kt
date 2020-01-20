@@ -38,9 +38,9 @@ fun main() {
     reformatMessage("Message", true, 7)
     reformatMessage(size = 7, message = "Message")
 
-    getUserInfo("Servet", "ANKARALI", "Konya", "Turkey", "232", "many of us!")
-    getUserInfo(*arrayOf("Servet", "ANKARALI", "Konya", "Turkey"))
-    getUserInfo2("2", 3, true, null, 'c', "mahmut")
+    getUserInfo("Servet", "ANKARALI", "Konya", "Turkey", "232", "many of us!", key = 2)
+    getUserInfo(*arrayOf("Servet", "ANKARALI", "Konya", "Turkey"), key = 2)
+    getUserInfo2("2", 3, true, null, 'c', "mahmut", key = 2) // Key is a must have
 
 }
 
