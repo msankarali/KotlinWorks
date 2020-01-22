@@ -98,3 +98,10 @@ fun getUserInfo2(vararg userInfo: Any?, key: Int) {
 // any farklari
 // primary secondary
 // implementation
+
+val userList = arrayOfNulls<String>(5)
+fun getListCount(): Int {
+    return userList.size
+}
+
+fun getListCount2(): Int = userList.size
