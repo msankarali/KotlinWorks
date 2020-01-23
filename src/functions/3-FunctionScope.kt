@@ -19,6 +19,7 @@ fun calculateAtomPhysics() {
     print("$result2")
 */
 
+    // fun getValuesFromUserAndPrint3()
     fun getValuesFromUserAndPrint2() {
         userName.length
         val numberOne = readLine()!!.toInt()
