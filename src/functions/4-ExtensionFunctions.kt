@@ -81,6 +81,14 @@ fun Shape.calculateArea(edge: Int): Int {
     return result.toInt()
 }
 
+/*
+val Shape.type
+    get() = "Rectangle"
+    set(value) {
+        type = value
+    }
+*/
+
 fun Shape.calculateArea2(edge: Double): Int {
     val result = edge * edge
     println(result)
