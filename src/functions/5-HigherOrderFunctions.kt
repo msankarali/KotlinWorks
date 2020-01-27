@@ -118,3 +118,4 @@ infix fun News.filterNews(getFilter: (filterType: String, getFilterName: () -> S
 }
 
 // first class citizen kavrami
+// inline
