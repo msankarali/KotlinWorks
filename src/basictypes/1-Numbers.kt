@@ -40,6 +40,15 @@ fun main(args: Array<String>): Unit {
     println("valChar is " + valChar.javaClass.name)
     println("valString is " + valString.javaClass.name)
 
+    val mutableList = mutableListOf("Muharrem")
+    mutableList.add("Servet")
+    mutableList.add("ANKARALI")
+    println(mutableList)
+
+    val immutableReadOnlyList = listOf("Muharrem", "Servet")
+    // immutableList.add("ANKARALI") //
+    println(immutableReadOnlyList)
+
 
     fun max(a: Int, b: Int) = if (a > b) a else b
 
@@ -48,8 +57,8 @@ fun main(args: Array<String>): Unit {
         -> 'var' comes from 'variable' and denotes a MUTABLE variable.
         -> for the performance, it is not that offered to be used
      */
-    var isThisReallyAVar: Int = 5
-    isThisReallyAVar = "GG".toInt()
+    //var isThisReallyAVar: Int = 5
+    //isThisReallyAVar = "GG".toInt()
 
 
     /**
