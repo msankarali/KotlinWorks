@@ -45,6 +45,8 @@ fun main() {
     } //annonymous fonksiyon
 
     val annonymousFunction2 = fun(surName: String): String = "surName: $surName"
+
+    news.read(::print)
 }
 
 fun getName(): String {
@@ -119,3 +121,7 @@ infix fun News.filterNews(getFilter: (filterType: String, getFilterName: () -> S
 
 // first class citizen kavrami
 // inline
+
+fun News.read(readTitle: (String) -> Unit) {
+    readTitle("Codemy is awesome")
+}
