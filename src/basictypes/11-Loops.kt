@@ -15,7 +15,7 @@ fun main() {
         print("${index + 1}. value is: ${countryCodeArray[index]}\n")
     }
 
-    for ((index, value) in countryCodeArray.withIndex()) { //index numbers
+    for ((index, value) in countryCodeArray.withIndex()) { //index numbers || component and functions, destructuring decleration
         print("${index + 1}. value is: $value\n")
         if (index == 3333) return
     }
